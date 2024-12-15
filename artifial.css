@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    font-family: "Montserrat";
+}
+.header{
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+    padding: 15px 50px;
+}
+.header h1{
+    font-size: 28px;
+}
+.logo img{
+    width: 40px;
+}
+.header ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin-left: 650px;
+}
+.header h2{
+    padding: 0px 20px;
+}
+.header button{
+    background-color: #7c4ee4;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: white;
+}
+.header span{
+    color: #7c4ee4;
+}
+
+.main{
+    height: 300px;
+    width: 1123px;
+    background-size: cover;
+    background-image: url(/asistes/background-al.gif);
+    background-repeat: no-repeat;
+    display: flex;
+    gap: 10px;
+    padding: 110px 70px;
+}
+
+
+
+.left {
+    width: 600px;
+    color: white;
+}
+.left h1{
+    font-size: 53px;
+    padding: 20px 0;
+}
+.left p{
+    width: 500px;
+}
+/* .main h1{
+    background-color: aliceblue;
+    width: 700px;
+    font-size: 68px;
+} */
+
+.right img{
+    padding-left: 40px;
+    width: 450px;
+    height: 350px;
+    border-radius:  8px;
+}
+.left button{
+    margin-top: 30px;
+    background-color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: black;
+}
+
